@@ -39,10 +39,10 @@ function App() {
         </label>
         <br />
         <button type="submit">Submit</button>
-        {fullName && (
-          <p>Full Name: {fullName}</p>
-        )}
       </form>
+      {fullName && (
+        <p>Full Name: {fullName}</p>
+      )}
     </div>
   );
 }
